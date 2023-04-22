@@ -1,0 +1,179 @@
+@font-face {
+  src: url(/assets/ProductSans\ .ttf);
+  font-family: ProductSans;
+}
+
+* {
+  font-family: ProductSans;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
+.navbar {
+  height:auto;
+  position: sticky;
+  top: 0;
+  box-shadow: 0 5px 4px 0 rgba(0,0,0,.2);
+}
+
+.navbar-links {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+  background-color: #111111;
+  width: 100%;
+}
+
+.navbar-item {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  text-align: center;
+  display: block;
+  padding: 1rem;
+}
+
+.navbar-item:hover {
+  background-color:  #202020;
+}
+
+.introduction {
+  height: 550px;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #343434;
+  color: white;
+}
+
+.ownpic {
+  height: 300px;
+  width: auto;
+  border-radius: 10px;
+}
+
+div.intro-text>h1 {
+  font-size: 40px;
+}
+
+div.intro-text>p {
+  font-size: 20px;
+  padding-top: 20px;
+}
+
+.hobbies {
+  height: 450px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+}
+
+section.hobbies>img {
+  height: 300px;
+  width: auto;
+  border-radius: 10px;
+}
+
+section.hobbies>div>h1 {
+  font-size: 40px; 
+}
+
+section.hobbies>div>p {
+  font-size: 20px;
+  padding-top: 20px;
+}
+
+.coding {
+  height: 450px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #343434;
+  color: white;
+}
+
+section.coding>div>h1 {
+  font-size: 40px;
+}
+
+section.coding>div>p {
+  font-size: 20px;
+  padding-top: 20px;
+}
+
+section.coding>a>img {
+  height: 250px;
+  width: auto;
+  border-radius: 15px;
+}
+
+.music {
+  height: 450px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+}
+
+.albums {
+  display: grid;
+  grid-template-rows: 150px 150px;
+  grid-template-columns: 150px 150px 150px 150px;
+}
+
+.music>div.albums>img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.grid-item-1 {
+  grid-row: span 2;
+  grid-column: span 2;
+  height: auto;
+}
+
+.music>div>h1 {
+  font-size: 40px;
+}
+
+.music>div>p {
+  font-size: 20px;
+  padding-top: 20px;
+}
+
+.manga {
+  height: 600px;
+  text-align: center;
+  background-color: #343434;
+  color: white;
+}
+
+.manga>h1 {
+  font-size: 50px;
+  padding-top: 70px;
+}
+
+.manga>p {
+  font-size: 20px;
+  padding-top: 10px;
+}
+
+.mangas {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+
+.mangas>div>img {
+  height: 300px;
+  width: auto;
+  box-shadow: 0 5px 5px #111111
+}
+.mangas>div>h2 {
+  margin-top: 20px;
+}
