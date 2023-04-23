@@ -12,18 +12,34 @@
 }
 
 .navbar {
-  height:auto;
+  height: auto;
   position: sticky;
   top: 0;
   box-shadow: 0 5px 4px 0 rgba(0,0,0,.2);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #111111;
 }
+
+nav>div>a>img {
+  max-height: 2rem;
+  width: auto;
+  margin: 0 .5rem;
+}
+
+nav>div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 3rem;
+}
+
 
 .navbar-links {
   display: flex;
   list-style: none;
   align-items: center;
-  justify-content: center;
-  background-color: #111111;
   width: 100%;
 }
 
@@ -106,10 +122,19 @@ section.coding>div>p {
   padding-top: 20px;
 }
 
-section.coding>a>img {
-  height: 250px;
-  width: auto;
-  border-radius: 15px;
+.techstacks {
+  display: grid;
+  background-color: white;
+  border-radius: 20px;
+  grid-template-rows: 150px 150px;
+  grid-template-columns: 150px 150px;
+}
+
+.techstacks img {
+  width: 80%;
+  display: flex;
+  justify-self: center;
+  align-self: center;
 }
 
 .music {
@@ -128,7 +153,7 @@ section.coding>a>img {
 
 .music>div.albums>img {
   width: 100%;
-  border-radius: 20px;
+  border-radius: 10%;
 }
 
 .grid-item-1 {
